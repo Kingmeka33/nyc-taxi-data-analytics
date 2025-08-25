@@ -74,13 +74,14 @@ This project integrates **Airflow, DBT, GCP (BigQuery + GCS), Terraform, and Loo
    - Downloads taxi trip data from TLC portal.  
    - Uploads to **GCS bucket**.  
    - Cleans up local storage on VM.  
-   - ![src_to_gcs DAG](Alt text)  
+<img width="2661" height="663" alt="Image" src="https://github.com/user-attachments/assets/ebaf9315-cb48-44d6-a42f-82d44001ac1d" />
 
 2. **`gcs_to_bq_dag.py`**  
    - Organizes files within GCS.  
    - Creates **external tables** in BigQuery.  
    - Builds **partitioned tables** from external tables for optimization.  
-   - ![gcs_to_bq DAG](Alt text)  
+<img width="2764" height="639" alt="image" src="https://github.com/user-attachments/assets/d6e093be-b824-45ae-9ab8-838ff6283bad" />
+
 
 3. **`src_to_postgres_dag.py`**  
    - Loads data from TLC portal into a **Postgres database** for testing/development.  
@@ -105,7 +106,7 @@ This project integrates **Airflow, DBT, GCP (BigQuery + GCS), Terraform, and Loo
   - Fare patterns and revenue insights.  
   - Comparison between **Yellow vs Green Taxi trips**.  
 
-![Dashboard Preview](Alt text)  
+<img width="2399" height="1743" alt="image" src="https://github.com/user-attachments/assets/b8cc1149-664e-41e7-8435-102c8c472fc7" />
 
 ---
 
