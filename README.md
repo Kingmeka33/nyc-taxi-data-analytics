@@ -2,7 +2,7 @@
 
 Analyzing **NYC Yellow and Green Taxi Trip Records** to identify key **trends, routes, and patterns** using an **ELT (Extract, Load, Transform) pipeline**.  
 This project integrates **Airflow, DBT, GCP (BigQuery + GCS), Terraform, and Looker Studio** to deliver a modern, scalable data analytics workflow.  
-
+<img width="1864" height="1515" alt="Image" src="https://github.com/user-attachments/assets/3ee673f0-95e5-4a7a-bdac-bf8ee0cb8042" />
 ---
 
 ## 📑 Table of Contents  
@@ -54,6 +54,7 @@ This project integrates **Airflow, DBT, GCP (BigQuery + GCS), Terraform, and Loo
 ---
 
 ## ⚙️ Infrastructure  
+<img width="1864" height="1515" alt="Image" src="https://github.com/user-attachments/assets/bd9e915e-35dd-498f-a864-a4fa46d6b0ec" />
 
 - **Terraform** → Infrastructure provisioning.  
 - **Docker** → Containerized execution environment.  
